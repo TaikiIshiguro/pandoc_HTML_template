@@ -2,7 +2,7 @@
 
 MarkdownをPandocでHTMLに変換する際に利用するテンプレートです。見やすく、使いやすいレイアウトと機能を実装しました。
 
-![画面イメージ](.docs/image.png)
+![画面イメージ](./docs/image.png)
 
 ## 特徴
 - 自動生成されるサイドバー型アウトライン
@@ -11,7 +11,7 @@ MarkdownをPandocでHTMLに変換する際に利用するテンプレートで�
 
 ## 利用方法
 ```shell
-pandoc article.md --template=template.html -o output.html
+pandoc input.md --template=template.html -o output.html
 ```
 
 
